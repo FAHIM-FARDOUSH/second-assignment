@@ -33,13 +33,15 @@
                 <li><a href="#">Host</a></li>
             </ul>
         </nav>
-        <button class="relative overflow-hidden px-4 py-1.5 rounded-2xl text-white text-sm font-semibold max-[576px]:hidden bg-gradient-to-r from-yellow-200 via-pink-500 to-violet-800 bg-[length:200%_200%] animate-[gradient-move_2s_ease-in_infinite]">Subscribe</button>
+         <button class="group relative overflow-hidden px-4 py-1.5 rounded-2xl text-white text-sm font-semibold max-[576px]:hidden bg-gradient-to-r from-yellow-200 via-pink-500 to-violet-800 bg-[length:200%_200%] animate-[gradient-move_2s_ease-in_infinite] hover:scale-105 hover:shadow-lg transition-all duration-300 ">
+            Subscribe <i class="fa-solid fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1 "></i>
+        </button>
         <img class="hidden max-[576px]:block w-8 h-8 object-contain" src="assets/hamburger-menu.png" alt="Menu">
 
     </header>
                     <!-- BANNER SECTION -->
 
-   <section class="bg-[url(./assets/hero-bg.png)] bg-center bg-contain bg-[#1A0B2E] pt-35 sm:pt-16
+   <section class="bg-[url(./assets/hero-bg.png)] bg-center bg-contain bg-[#1A0B2E] pt-30 sm:pt-16
  text-center flex flex-col items-center justify-center min-h-screen sm:min-h-[30vh]
  w-full bg-no-repeat px-4 py-6 sm:py-20 gap-8">
 
@@ -51,9 +53,9 @@
         <h2 class="text-white xl:text-6xl font-bold sm:text-6xl">TechWave</h2>
         <p class="text-white font-thin sm:text-3xl xl:text-xl">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         <div class="flex gap-6">
-            <button class="relative overflow-hidden px-4 py-1.5 rounded-3xl text-white text-sm font-semibold bg-gradient-to-r from-yellow-200 via-pink-500 to-violet-800 bg-[length:200%_200%] animate-[gradient-move_3s_ease_infinite]"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+            <button class="group relative overflow-hidden px-4 py-1.5 rounded-3xl text-white text-sm font-semibold bg-gradient-to-r from-yellow-200 via-pink-500 to-violet-800 bg-[length:200%_200%] animate-[gradient-move_3s_ease_infinite] hover:scale-105 hover:shadow-lg transition-all duration-300"><i class="fa-brands fa-spotify ml-2 transition-transform duration-300 group-hover:-translate-x-1"></i> Listen On Spotify</button>
+        <button class="group border-2 rounded-3xl py-2 px-5 border-green-400 text-green-400 hover:scale-105 hover:shadow-lg transition-all duration-300"><i class="fa-regular fa-envelope ml-2 transition-transform duration-300 group-hover:-translate-x-1"></i> Subscribe</button>
 
-        <button class="border-2 rounded-3xl py-2 px-5 border-green-400 text-green-400"><i class="fa-regular fa-envelope"></i> Subscribe</button>
         </div>
     </section>
                     <!-- ABOUT SECTION  -->
@@ -186,7 +188,25 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
 </div>
 
-       
+            <!-- FOOTER STARTS HERE -->
+             
+    <section class="bg-[url(./assets/Image.png)] bg-center bg-cover py-16 flex flex-col items-center justify-center gap-8 px-4 bg-no-repeat">
+        <div class="relative w-full flex flex-col items-center justify-center">
+            <img src="assets/footer-bg.png" alt="" class="w-full">
+            <div class="absolute inset-0 flex flex-col items-center justify-center gap-8">
+                <h2 class="text-5xl font-bold text-white">Tech<span class="bg-gradient-to-bl from-yellow-200 via-pink-500 to-violet-800 bg-clip-text text-transparent">Wave</span></h2>
+                <div class="flex flex-col items-center gap-6">
+                    <div class="flex justify-center text-white gap-x-10">
+                        <a href="" class="text-[#A89FB4]"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                        <a href="" class="text-[#A89FB4]"><i class="fa-brands fa-spotify"></i> Apple Podcasts</a>
+                        <a href="" class="text-[#A89FB4]"><i class="fa-brands fa-youtube"></i> You Tube</a>
+                        <a href="" class="text-[#A89FB4]"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                    </div>
+                    <p class="text-[#878787] font-sm font-thin">© 2026 TechWave Podcast. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 </body>
